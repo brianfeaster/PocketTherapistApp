@@ -1,0 +1,1009 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A14216F92C88DAE80057CBD6 /* PocketTherapistAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14216F82C88DAE80057CBD6 /* PocketTherapistAppApp.swift */; };
+		A14216FB2C88DAE80057CBD6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14216FA2C88DAE80057CBD6 /* ContentView.swift */; };
+		A14216FD2C88DAEA0057CBD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A14216FC2C88DAEA0057CBD6 /* Assets.xcassets */; };
+		A14217002C88DAEA0057CBD6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A14216FF2C88DAEA0057CBD6 /* Preview Assets.xcassets */; };
+		A142170A2C88DAEA0057CBD6 /* PocketTherapistAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14217092C88DAEA0057CBD6 /* PocketTherapistAppTests.swift */; };
+		A14217142C88DAEA0057CBD6 /* PocketTherapistAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14217132C88DAEA0057CBD6 /* PocketTherapistAppUITests.swift */; };
+		A14217162C88DAEA0057CBD6 /* PocketTherapistAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14217152C88DAEA0057CBD6 /* PocketTherapistAppUITestsLaunchTests.swift */; };
+		A142171C2C88DAEA0057CBD6 /* PocketTherapistApp Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A142171B2C88DAEA0057CBD6 /* PocketTherapistApp Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A14217212C88DAEA0057CBD6 /* PocketTherapistAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14217202C88DAEA0057CBD6 /* PocketTherapistAppApp.swift */; };
+		A14217232C88DAEA0057CBD6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14217222C88DAEA0057CBD6 /* ContentView.swift */; };
+		A14217252C88DAEB0057CBD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A14217242C88DAEB0057CBD6 /* Assets.xcassets */; };
+		A14217282C88DAEB0057CBD6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A14217272C88DAEB0057CBD6 /* Preview Assets.xcassets */; };
+		A14217322C88DAEC0057CBD6 /* PocketTherapistApp_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14217312C88DAEC0057CBD6 /* PocketTherapistApp_Watch_AppTests.swift */; };
+		A142173C2C88DAEC0057CBD6 /* PocketTherapistApp_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A142173B2C88DAEC0057CBD6 /* PocketTherapistApp_Watch_AppUITests.swift */; };
+		A142173E2C88DAEC0057CBD6 /* PocketTherapistApp_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A142173D2C88DAEC0057CBD6 /* PocketTherapistApp_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A14217062C88DAEA0057CBD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A14216ED2C88DAE80057CBD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A14216F42C88DAE80057CBD6;
+			remoteInfo = PocketTherapistApp;
+		};
+		A14217102C88DAEA0057CBD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A14216ED2C88DAE80057CBD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A14216F42C88DAE80057CBD6;
+			remoteInfo = PocketTherapistApp;
+		};
+		A142171D2C88DAEA0057CBD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A14216ED2C88DAE80057CBD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A142171A2C88DAEA0057CBD6;
+			remoteInfo = "PocketTherapistApp Watch App";
+		};
+		A142172E2C88DAEC0057CBD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A14216ED2C88DAE80057CBD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A142171A2C88DAEA0057CBD6;
+			remoteInfo = "PocketTherapistApp Watch App";
+		};
+		A14217382C88DAEC0057CBD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A14216ED2C88DAE80057CBD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A142171A2C88DAEA0057CBD6;
+			remoteInfo = "PocketTherapistApp Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A14217442C88DAEC0057CBD6 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A142171C2C88DAEA0057CBD6 /* PocketTherapistApp Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A14216F52C88DAE80057CBD6 /* PocketTherapistApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketTherapistApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A14216F82C88DAE80057CBD6 /* PocketTherapistAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketTherapistAppApp.swift; sourceTree = "<group>"; };
+		A14216FA2C88DAE80057CBD6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A14216FC2C88DAEA0057CBD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A14216FF2C88DAEA0057CBD6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A14217052C88DAEA0057CBD6 /* PocketTherapistAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketTherapistAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A14217092C88DAEA0057CBD6 /* PocketTherapistAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketTherapistAppTests.swift; sourceTree = "<group>"; };
+		A142170F2C88DAEA0057CBD6 /* PocketTherapistAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketTherapistAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A14217132C88DAEA0057CBD6 /* PocketTherapistAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketTherapistAppUITests.swift; sourceTree = "<group>"; };
+		A14217152C88DAEA0057CBD6 /* PocketTherapistAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketTherapistAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A142171B2C88DAEA0057CBD6 /* PocketTherapistApp Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PocketTherapistApp Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A14217202C88DAEA0057CBD6 /* PocketTherapistAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketTherapistAppApp.swift; sourceTree = "<group>"; };
+		A14217222C88DAEA0057CBD6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A14217242C88DAEB0057CBD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A14217272C88DAEB0057CBD6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A142172D2C88DAEC0057CBD6 /* PocketTherapistApp Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PocketTherapistApp Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A14217312C88DAEC0057CBD6 /* PocketTherapistApp_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketTherapistApp_Watch_AppTests.swift; sourceTree = "<group>"; };
+		A14217372C88DAEC0057CBD6 /* PocketTherapistApp Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PocketTherapistApp Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A142173B2C88DAEC0057CBD6 /* PocketTherapistApp_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketTherapistApp_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		A142173D2C88DAEC0057CBD6 /* PocketTherapistApp_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketTherapistApp_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A14216F22C88DAE80057CBD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14217022C88DAEA0057CBD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A142170C2C88DAEA0057CBD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14217182C88DAEA0057CBD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A142172A2C88DAEC0057CBD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14217342C88DAEC0057CBD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A14216EC2C88DAE80057CBD6 = {
+			isa = PBXGroup;
+			children = (
+				A14216F72C88DAE80057CBD6 /* PocketTherapistApp */,
+				A14217082C88DAEA0057CBD6 /* PocketTherapistAppTests */,
+				A14217122C88DAEA0057CBD6 /* PocketTherapistAppUITests */,
+				A142171F2C88DAEA0057CBD6 /* PocketTherapistApp Watch App */,
+				A14217302C88DAEC0057CBD6 /* PocketTherapistApp Watch AppTests */,
+				A142173A2C88DAEC0057CBD6 /* PocketTherapistApp Watch AppUITests */,
+				A14216F62C88DAE80057CBD6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A14216F62C88DAE80057CBD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A14216F52C88DAE80057CBD6 /* PocketTherapistApp.app */,
+				A14217052C88DAEA0057CBD6 /* PocketTherapistAppTests.xctest */,
+				A142170F2C88DAEA0057CBD6 /* PocketTherapistAppUITests.xctest */,
+				A142171B2C88DAEA0057CBD6 /* PocketTherapistApp Watch App.app */,
+				A142172D2C88DAEC0057CBD6 /* PocketTherapistApp Watch AppTests.xctest */,
+				A14217372C88DAEC0057CBD6 /* PocketTherapistApp Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A14216F72C88DAE80057CBD6 /* PocketTherapistApp */ = {
+			isa = PBXGroup;
+			children = (
+				A14216F82C88DAE80057CBD6 /* PocketTherapistAppApp.swift */,
+				A14216FA2C88DAE80057CBD6 /* ContentView.swift */,
+				A14216FC2C88DAEA0057CBD6 /* Assets.xcassets */,
+				A14216FE2C88DAEA0057CBD6 /* Preview Content */,
+			);
+			path = PocketTherapistApp;
+			sourceTree = "<group>";
+		};
+		A14216FE2C88DAEA0057CBD6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A14216FF2C88DAEA0057CBD6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A14217082C88DAEA0057CBD6 /* PocketTherapistAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A14217092C88DAEA0057CBD6 /* PocketTherapistAppTests.swift */,
+			);
+			path = PocketTherapistAppTests;
+			sourceTree = "<group>";
+		};
+		A14217122C88DAEA0057CBD6 /* PocketTherapistAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A14217132C88DAEA0057CBD6 /* PocketTherapistAppUITests.swift */,
+				A14217152C88DAEA0057CBD6 /* PocketTherapistAppUITestsLaunchTests.swift */,
+			);
+			path = PocketTherapistAppUITests;
+			sourceTree = "<group>";
+		};
+		A142171F2C88DAEA0057CBD6 /* PocketTherapistApp Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				A14217202C88DAEA0057CBD6 /* PocketTherapistAppApp.swift */,
+				A14217222C88DAEA0057CBD6 /* ContentView.swift */,
+				A14217242C88DAEB0057CBD6 /* Assets.xcassets */,
+				A14217262C88DAEB0057CBD6 /* Preview Content */,
+			);
+			path = "PocketTherapistApp Watch App";
+			sourceTree = "<group>";
+		};
+		A14217262C88DAEB0057CBD6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A14217272C88DAEB0057CBD6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A14217302C88DAEC0057CBD6 /* PocketTherapistApp Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A14217312C88DAEC0057CBD6 /* PocketTherapistApp_Watch_AppTests.swift */,
+			);
+			path = "PocketTherapistApp Watch AppTests";
+			sourceTree = "<group>";
+		};
+		A142173A2C88DAEC0057CBD6 /* PocketTherapistApp Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A142173B2C88DAEC0057CBD6 /* PocketTherapistApp_Watch_AppUITests.swift */,
+				A142173D2C88DAEC0057CBD6 /* PocketTherapistApp_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "PocketTherapistApp Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A14216F42C88DAE80057CBD6 /* PocketTherapistApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A14217452C88DAEC0057CBD6 /* Build configuration list for PBXNativeTarget "PocketTherapistApp" */;
+			buildPhases = (
+				A14216F12C88DAE80057CBD6 /* Sources */,
+				A14216F22C88DAE80057CBD6 /* Frameworks */,
+				A14216F32C88DAE80057CBD6 /* Resources */,
+				A14217442C88DAEC0057CBD6 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A142171E2C88DAEA0057CBD6 /* PBXTargetDependency */,
+			);
+			name = PocketTherapistApp;
+			productName = PocketTherapistApp;
+			productReference = A14216F52C88DAE80057CBD6 /* PocketTherapistApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A14217042C88DAEA0057CBD6 /* PocketTherapistAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A14217482C88DAEC0057CBD6 /* Build configuration list for PBXNativeTarget "PocketTherapistAppTests" */;
+			buildPhases = (
+				A14217012C88DAEA0057CBD6 /* Sources */,
+				A14217022C88DAEA0057CBD6 /* Frameworks */,
+				A14217032C88DAEA0057CBD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A14217072C88DAEA0057CBD6 /* PBXTargetDependency */,
+			);
+			name = PocketTherapistAppTests;
+			productName = PocketTherapistAppTests;
+			productReference = A14217052C88DAEA0057CBD6 /* PocketTherapistAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A142170E2C88DAEA0057CBD6 /* PocketTherapistAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A142174B2C88DAEC0057CBD6 /* Build configuration list for PBXNativeTarget "PocketTherapistAppUITests" */;
+			buildPhases = (
+				A142170B2C88DAEA0057CBD6 /* Sources */,
+				A142170C2C88DAEA0057CBD6 /* Frameworks */,
+				A142170D2C88DAEA0057CBD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A14217112C88DAEA0057CBD6 /* PBXTargetDependency */,
+			);
+			name = PocketTherapistAppUITests;
+			productName = PocketTherapistAppUITests;
+			productReference = A142170F2C88DAEA0057CBD6 /* PocketTherapistAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		A142171A2C88DAEA0057CBD6 /* PocketTherapistApp Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A14217412C88DAEC0057CBD6 /* Build configuration list for PBXNativeTarget "PocketTherapistApp Watch App" */;
+			buildPhases = (
+				A14217172C88DAEA0057CBD6 /* Sources */,
+				A14217182C88DAEA0057CBD6 /* Frameworks */,
+				A14217192C88DAEA0057CBD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PocketTherapistApp Watch App";
+			productName = "PocketTherapistApp Watch App";
+			productReference = A142171B2C88DAEA0057CBD6 /* PocketTherapistApp Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A142172C2C88DAEC0057CBD6 /* PocketTherapistApp Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A142174E2C88DAEC0057CBD6 /* Build configuration list for PBXNativeTarget "PocketTherapistApp Watch AppTests" */;
+			buildPhases = (
+				A14217292C88DAEC0057CBD6 /* Sources */,
+				A142172A2C88DAEC0057CBD6 /* Frameworks */,
+				A142172B2C88DAEC0057CBD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A142172F2C88DAEC0057CBD6 /* PBXTargetDependency */,
+			);
+			name = "PocketTherapistApp Watch AppTests";
+			productName = "PocketTherapistApp Watch AppTests";
+			productReference = A142172D2C88DAEC0057CBD6 /* PocketTherapistApp Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A14217362C88DAEC0057CBD6 /* PocketTherapistApp Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A14217512C88DAEC0057CBD6 /* Build configuration list for PBXNativeTarget "PocketTherapistApp Watch AppUITests" */;
+			buildPhases = (
+				A14217332C88DAEC0057CBD6 /* Sources */,
+				A14217342C88DAEC0057CBD6 /* Frameworks */,
+				A14217352C88DAEC0057CBD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A14217392C88DAEC0057CBD6 /* PBXTargetDependency */,
+			);
+			name = "PocketTherapistApp Watch AppUITests";
+			productName = "PocketTherapistApp Watch AppUITests";
+			productReference = A14217372C88DAEC0057CBD6 /* PocketTherapistApp Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A14216ED2C88DAE80057CBD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					A14216F42C88DAE80057CBD6 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					A14217042C88DAEA0057CBD6 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A14216F42C88DAE80057CBD6;
+					};
+					A142170E2C88DAEA0057CBD6 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A14216F42C88DAE80057CBD6;
+					};
+					A142171A2C88DAEA0057CBD6 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					A142172C2C88DAEC0057CBD6 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A142171A2C88DAEA0057CBD6;
+					};
+					A14217362C88DAEC0057CBD6 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A142171A2C88DAEA0057CBD6;
+					};
+				};
+			};
+			buildConfigurationList = A14216F02C88DAE80057CBD6 /* Build configuration list for PBXProject "PocketTherapistApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A14216EC2C88DAE80057CBD6;
+			productRefGroup = A14216F62C88DAE80057CBD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A14216F42C88DAE80057CBD6 /* PocketTherapistApp */,
+				A14217042C88DAEA0057CBD6 /* PocketTherapistAppTests */,
+				A142170E2C88DAEA0057CBD6 /* PocketTherapistAppUITests */,
+				A142171A2C88DAEA0057CBD6 /* PocketTherapistApp Watch App */,
+				A142172C2C88DAEC0057CBD6 /* PocketTherapistApp Watch AppTests */,
+				A14217362C88DAEC0057CBD6 /* PocketTherapistApp Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A14216F32C88DAE80057CBD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14217002C88DAEA0057CBD6 /* Preview Assets.xcassets in Resources */,
+				A14216FD2C88DAEA0057CBD6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14217032C88DAEA0057CBD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A142170D2C88DAEA0057CBD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14217192C88DAEA0057CBD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14217282C88DAEB0057CBD6 /* Preview Assets.xcassets in Resources */,
+				A14217252C88DAEB0057CBD6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A142172B2C88DAEC0057CBD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14217352C88DAEC0057CBD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A14216F12C88DAE80057CBD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14216FB2C88DAE80057CBD6 /* ContentView.swift in Sources */,
+				A14216F92C88DAE80057CBD6 /* PocketTherapistAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14217012C88DAEA0057CBD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A142170A2C88DAEA0057CBD6 /* PocketTherapistAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A142170B2C88DAEA0057CBD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14217142C88DAEA0057CBD6 /* PocketTherapistAppUITests.swift in Sources */,
+				A14217162C88DAEA0057CBD6 /* PocketTherapistAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14217172C88DAEA0057CBD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14217232C88DAEA0057CBD6 /* ContentView.swift in Sources */,
+				A14217212C88DAEA0057CBD6 /* PocketTherapistAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14217292C88DAEC0057CBD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14217322C88DAEC0057CBD6 /* PocketTherapistApp_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14217332C88DAEC0057CBD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A142173C2C88DAEC0057CBD6 /* PocketTherapistApp_Watch_AppUITests.swift in Sources */,
+				A142173E2C88DAEC0057CBD6 /* PocketTherapistApp_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A14217072C88DAEA0057CBD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A14216F42C88DAE80057CBD6 /* PocketTherapistApp */;
+			targetProxy = A14217062C88DAEA0057CBD6 /* PBXContainerItemProxy */;
+		};
+		A14217112C88DAEA0057CBD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A14216F42C88DAE80057CBD6 /* PocketTherapistApp */;
+			targetProxy = A14217102C88DAEA0057CBD6 /* PBXContainerItemProxy */;
+		};
+		A142171E2C88DAEA0057CBD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A142171A2C88DAEA0057CBD6 /* PocketTherapistApp Watch App */;
+			targetProxy = A142171D2C88DAEA0057CBD6 /* PBXContainerItemProxy */;
+		};
+		A142172F2C88DAEC0057CBD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A142171A2C88DAEA0057CBD6 /* PocketTherapistApp Watch App */;
+			targetProxy = A142172E2C88DAEC0057CBD6 /* PBXContainerItemProxy */;
+		};
+		A14217392C88DAEC0057CBD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A142171A2C88DAEA0057CBD6 /* PocketTherapistApp Watch App */;
+			targetProxy = A14217382C88DAEC0057CBD6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A142173F2C88DAEC0057CBD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A14217402C88DAEC0057CBD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A14217422C88DAEC0057CBD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PocketTherapistApp Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PocketTherapistApp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = NatuReconnectTherapy.PocketTherapistApp;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NatuReconnectTherapy.PocketTherapistApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		A14217432C88DAEC0057CBD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PocketTherapistApp Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PocketTherapistApp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = NatuReconnectTherapy.PocketTherapistApp;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NatuReconnectTherapy.PocketTherapistApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		A14217462C88DAEC0057CBD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PocketTherapistApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PocketTherapistApp;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NatuReconnectTherapy.PocketTherapistApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A14217472C88DAEC0057CBD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PocketTherapistApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PocketTherapistApp;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NatuReconnectTherapy.PocketTherapistApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A14217492C88DAEC0057CBD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NatuReconnectTherapy.PocketTherapistAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PocketTherapistApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PocketTherapistApp";
+			};
+			name = Debug;
+		};
+		A142174A2C88DAEC0057CBD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NatuReconnectTherapy.PocketTherapistAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PocketTherapistApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PocketTherapistApp";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A142174C2C88DAEC0057CBD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NatuReconnectTherapy.PocketTherapistAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PocketTherapistApp;
+			};
+			name = Debug;
+		};
+		A142174D2C88DAEC0057CBD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NatuReconnectTherapy.PocketTherapistAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PocketTherapistApp;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A142174F2C88DAEC0057CBD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NatuReconnectTherapy.PocketTherapistApp-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PocketTherapistApp Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PocketTherapistApp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		A14217502C88DAEC0057CBD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NatuReconnectTherapy.PocketTherapistApp-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PocketTherapistApp Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PocketTherapistApp Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		A14217522C88DAEC0057CBD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NatuReconnectTherapy.PocketTherapistApp-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "PocketTherapistApp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		A14217532C88DAEC0057CBD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NatuReconnectTherapy.PocketTherapistApp-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "PocketTherapistApp Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A14216F02C88DAE80057CBD6 /* Build configuration list for PBXProject "PocketTherapistApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A142173F2C88DAEC0057CBD6 /* Debug */,
+				A14217402C88DAEC0057CBD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A14217412C88DAEC0057CBD6 /* Build configuration list for PBXNativeTarget "PocketTherapistApp Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A14217422C88DAEC0057CBD6 /* Debug */,
+				A14217432C88DAEC0057CBD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A14217452C88DAEC0057CBD6 /* Build configuration list for PBXNativeTarget "PocketTherapistApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A14217462C88DAEC0057CBD6 /* Debug */,
+				A14217472C88DAEC0057CBD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A14217482C88DAEC0057CBD6 /* Build configuration list for PBXNativeTarget "PocketTherapistAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A14217492C88DAEC0057CBD6 /* Debug */,
+				A142174A2C88DAEC0057CBD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A142174B2C88DAEC0057CBD6 /* Build configuration list for PBXNativeTarget "PocketTherapistAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A142174C2C88DAEC0057CBD6 /* Debug */,
+				A142174D2C88DAEC0057CBD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A142174E2C88DAEC0057CBD6 /* Build configuration list for PBXNativeTarget "PocketTherapistApp Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A142174F2C88DAEC0057CBD6 /* Debug */,
+				A14217502C88DAEC0057CBD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A14217512C88DAEC0057CBD6 /* Build configuration list for PBXNativeTarget "PocketTherapistApp Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A14217522C88DAEC0057CBD6 /* Debug */,
+				A14217532C88DAEC0057CBD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A14216ED2C88DAE80057CBD6 /* Project object */;
+}
