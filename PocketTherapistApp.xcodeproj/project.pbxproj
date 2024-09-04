@@ -97,6 +97,7 @@
 		A14217372C88DAEC0057CBD6 /* PocketTherapistApp Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PocketTherapistApp Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A142173B2C88DAEC0057CBD6 /* PocketTherapistApp_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketTherapistApp_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		A142173D2C88DAEC0057CBD6 /* PocketTherapistApp_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketTherapistApp_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A14217542C88E1A10057CBD6 /* PocketTherapistApp-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "PocketTherapistApp-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,6 +211,7 @@
 		A142171F2C88DAEA0057CBD6 /* PocketTherapistApp Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				A14217542C88E1A10057CBD6 /* PocketTherapistApp-Watch-App-Info.plist */,
 				A14217202C88DAEA0057CBD6 /* PocketTherapistAppApp.swift */,
 				A14217222C88DAEA0057CBD6 /* ContentView.swift */,
 				A14217242C88DAEB0057CBD6 /* Assets.xcassets */,
@@ -663,9 +665,11 @@
 				DEVELOPMENT_ASSET_PATHS = "\"PocketTherapistApp Watch App/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PocketTherapistApp-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = PocketTherapistApp;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = NatuReconnectTherapy.PocketTherapistApp;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -692,9 +696,11 @@
 				DEVELOPMENT_ASSET_PATHS = "\"PocketTherapistApp Watch App/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PocketTherapistApp-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = PocketTherapistApp;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = NatuReconnectTherapy.PocketTherapistApp;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
